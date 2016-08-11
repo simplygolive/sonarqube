@@ -1,0 +1,4 @@
+.DS_Store*
+.hubot_history
+node_modules
+secrets.env
