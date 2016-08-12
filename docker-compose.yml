@@ -48,18 +48,3 @@ services:
     ports:
       - "5432:5432"
 
-  # nginx_proxy:
-  #   container_name: proxy
-  #   image: jwilder/nginx-proxy
-  #   volumes:
-  #     - /path/to/certs:/etc/nginx/certs:ro
-  #     - /etc/nginx/vhost.d
-  #     - /usr/share/nginx/html
-
-  # nginx_ssl:
-  #   container_name: proxy_sslifier
-  #   build: ssl
-  #   volumes:
-  #     - /path/to/certs:/etc/nginx/certs:rw
-  #   volumes_from:
-  #     - nginx_proxy
