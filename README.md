@@ -19,6 +19,7 @@ cd {repo}
 ci/build.sh
 docker-compose up -d
 # you know it's ready when
-curl http://localhost:9000
-# results in 200 OK with sonarqube login page
+curl -I http://localhost:9000
+curl -kI https://localhost
+# both result in 200 OK with sonarqube login page
 ```

@@ -46,3 +46,17 @@ services:
     ports:
       - "5432:5432"
 
+  ssl_proxy:
+    container_name: sonarqube_ssl_proxy
+    image: eu.gcr.io/windy-oxide-102215/nginx-proxy:latest
+    depends_on:
+      - sonarqube
+    links:
+      - sonarqube:sonarqube
+    ports:
+      - "443:443"
+      - "9113:9113"
+    volumes:
+      - ./ssl:/ssl
+    env_file:
+      - ./env/ssl_proxy.env
