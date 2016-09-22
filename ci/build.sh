@@ -5,11 +5,11 @@ pushd plugins
   wget --no-clobber https://ci.appveyor.com/api/buildjobs/8k2hqcu3xyyudqd0/artifacts/sonar-fsharp-plugin/target/sonar-fsharp-plugin-1.0.RC4.jar
   wget --no-clobber https://github.com/SonarQubeCommunity/sonar-erlang/releases/download/1.2/sonar-erlang-plugin.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-csharp-plugin/sonar-csharp-plugin-5.3.2.jar
-  wget --no-clobber https://github.com/SonarQubeCommunity/sonar-css/releases/download/2.0/sonar-css-plugin.jar
+  wget --no-clobber https://github.com/SonarQubeCommunity/sonar-css/releases/download/2.1/sonar-css-plugin-2.1.jar
   wget --no-clobber https://downloads.sonarsource.com/plugins/org/codehaus/sonar-plugins/android/sonar-android-plugin/1.1/sonar-android-plugin-1.1.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-groovy-plugin/sonar-groovy-plugin-1.4.jar
-  wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-java-plugin/sonar-java-plugin-4.1.jar
-  wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-javascript-plugin/sonar-javascript-plugin-2.14.jar
+  wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-java-plugin/sonar-java-plugin-4.2.jar
+  wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-javascript-plugin/sonar-javascript-plugin-2.16.0.2922.jar
   wget --no-clobber https://github.com/racodond/sonar-jproperties-plugin/releases/download/2.1.1/sonar-jproperties-plugin-2.1.1.jar
   wget --no-clobber https://github.com/racodond/sonar-json-plugin/releases/download/2.0/sonar-json-plugin-2.0.jar
   wget --no-clobber https://github.com/iwarapter/sonar-puppet/releases/download/1.4/sonar-puppet-plugin-1.4.jar
@@ -48,10 +48,7 @@ pushd plugins
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-generic-coverage/sonar-generic-coverage-plugin-1.2.jar
   wget --no-clobber https://downloads.sonarsource.com/plugins/org/codehaus/sonar-plugins/sonar-pitest-plugin/0.6/sonar-pitest-plugin-0.6.jar
   wget --no-clobber https://github.com/QualInsight/qualinsight-plugins-sonarqube-smell/releases/download/qualinsight-plugins-sonarqube-smell-3.0.0/qualinsight-plugins-sonarqube-smell-plugin-3.0.0.jar
-  wget --no-clobber http://www.rigs-it.net/opendownloads/XanitizerSonarQubePlugin-1.1.1.zip
-  rm XanitizerSonarQubePlugin*pdf
-  unzip -u XanitizerSonarQubePlugin-1.1.1.zip
-  rm XanitizerSonarQubePlugin-1.1.1.zip
+  wget --no-clobber https://github.com/RIGS-IT/sonar-xanitizer/releases/download/1.3.3/sonar-xanitizer-plugin-1.3.3.jar
 
   # TODO(pete): BROKEN
   # wget --no-clobber https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/releases/download/qualinsight-plugins-sonarqube-badges-2.0.1/qualinsight-sonarqube-badges-2.0.1.jar
