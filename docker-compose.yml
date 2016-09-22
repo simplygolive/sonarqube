@@ -54,6 +54,7 @@ services:
     links:
       - sonarqube:sonarqube
     ports:
+      - "80:80"
       - "443:443"
       - "9113:9113"
     volumes:
