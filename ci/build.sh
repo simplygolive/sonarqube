@@ -24,7 +24,7 @@ pushd plugins
   wget --no-clobber https://github.com/SonarQubeCommunity/sonar-sonargraph/releases/download/sonar-sonargraph-plugin-3.5/sonar-sonargraph-plugin-3.5.jar
   wget --no-clobber http://central.maven.org/maven2/org/codehaus/sonar-plugins/toxicity-chart/sonar-toxicity-chart-plugin/1.1/sonar-toxicity-chart-plugin-1.1.jar
   wget --no-clobber https://github.com/SonarQubeCommunity/sonar-widget-lab/releases/download/1.8.1/sonar-widget-lab-plugin-1.8.1.jar
-  wget --no-clobber https://github.com/stefanrinderle/softvis3d/releases/download/softvis3d-0.5.2/sonar-softvis3d-plugin-0.5.2.jar
+  wget --no-clobber https://github.com/stefanrinderle/softvis3d/releases/download/softvis3d-0.6.0/sonar-softvis3d-plugin-0.6.0.jar
 
 
   # infra
@@ -52,7 +52,6 @@ pushd plugins
   wget --no-clobber https://github.com/RIGS-IT/sonar-xanitizer/releases/download/1.3.3/sonar-xanitizer-plugin-1.3.3.jar
 
   # TODO(pete): BROKEN
-  # wget --no-clobber https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/releases/download/qualinsight-plugins-sonarqube-badges-2.0.1/qualinsight-sonarqube-badges-2.0.1.jar
   # wget --no-clobber http://downloads.sonarsource.com/plugins/org/codehaus/sonar-plugins/sonar-timeline-plugin/1.5/sonar-timeline-plugin-1.5.jar
 
 popd
