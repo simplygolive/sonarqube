@@ -10,8 +10,8 @@ pushd plugins
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-groovy-plugin/sonar-groovy-plugin-1.4.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-java-plugin/sonar-java-plugin-4.2.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-javascript-plugin/sonar-javascript-plugin-2.16.0.2922.jar
-  wget --no-clobber https://github.com/racodond/sonar-jproperties-plugin/releases/download/2.1.1/sonar-jproperties-plugin-2.1.1.jar
-  wget --no-clobber https://github.com/racodond/sonar-json-plugin/releases/download/2.0/sonar-json-plugin-2.0.jar
+  wget --no-clobber https://github.com/racodond/sonar-jproperties-plugin/releases/download/2.2/sonar-jproperties-plugin-2.2.jar
+  wget --no-clobber https://github.com/racodond/sonar-json-plugin/releases/download/2.1/sonar-json-plugin-2.1.jar
   wget --no-clobber https://github.com/iwarapter/sonar-puppet/releases/download/1.4/sonar-puppet-plugin-1.4.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-python-plugin/sonar-python-plugin-1.6.jar
   wget --no-clobber https://github.com/hantuzun/sonar-scalastyle/releases/download/v0.0.1-SNAPSHOT/sonar-scalastyle-plugin-0.0.1-SNAPSHOT.jar
@@ -53,6 +53,7 @@ pushd plugins
 
   # TODO(pete): BROKEN
   # wget --no-clobber http://downloads.sonarsource.com/plugins/org/codehaus/sonar-plugins/sonar-timeline-plugin/1.5/sonar-timeline-plugin-1.5.jar
+  #   wget --no-clobber https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/releases/download/qualinsight-plugins-sonarqube-badges-2.0.1/qualinsight-sonarqube-badges-2.0.1.jar
 
 popd
 
