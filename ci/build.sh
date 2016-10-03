@@ -30,6 +30,7 @@ pushd plugins
   # infra
   wget --no-clobber https://downloads.sonarsource.com/plugins/org/codehaus/sonar-plugins/sonar-googleanalytics-plugin/1.1/sonar-googleanalytics-plugin-1.1.jar
   wget --no-clobber https://github.com/astrebel/sonar-slack-notifier-plugin/releases/download/v0.1/sonar-slack-notifier-plugin-0.1.jar
+  wget --no-clobber https://github.com/steven-turner/sonar-auth-google/releases/download/0.5-RC1/sonar-auth-google-plugin-0.5-RC1.jar
 
 
   # source control
