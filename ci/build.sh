@@ -48,7 +48,7 @@ pushd plugins
   wget --no-clobber https://github.com/SonarQubeCommunity/sonar-findbugs/releases/download/3.4.4/sonar-findbugs-plugin-3.4.4.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-generic-coverage/sonar-generic-coverage-plugin-1.2.jar
   wget --no-clobber https://github.com/SonarQubeCommunity/sonar-pitest/releases/download/0.7/sonar-pitest-plugin-0.7.jar
-  wget --no-clobber https://github.com/QualInsight/qualinsight-plugins-sonarqube-smell/releases/download/qualinsight-plugins-sonarqube-smell-4.0.0/qualinsight-plugins-sonarqube-smell-api-4.0.0.jar
+  wget --no-clobber https://github.com/QualInsight/qualinsight-plugins-sonarqube-smell/releases/download/qualinsight-plugins-sonarqube-smell-4.0.0/qualinsight-sonarqube-smell-plugin-4.0.0.jar
   wget --no-clobber https://github.com/RIGS-IT/sonar-xanitizer/releases/download/1.3.3/sonar-xanitizer-plugin-1.3.3.jar
 
   # TODO(pete): BROKEN
