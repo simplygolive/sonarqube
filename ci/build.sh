@@ -14,7 +14,6 @@ pushd plugins
   wget --no-clobber https://github.com/racodond/sonar-json-plugin/releases/download/2.1/sonar-json-plugin-2.1.jar
   wget --no-clobber https://github.com/iwarapter/sonar-puppet/releases/download/1.4/sonar-puppet-plugin-1.4.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-python-plugin/sonar-python-plugin-1.7.0.1195.jar
-  wget --no-clobber https://github.com/hantuzun/sonar-scalastyle/releases/download/v0.0.1-SNAPSHOT/sonar-scalastyle-plugin-0.0.1-SNAPSHOT.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-web-plugin/sonar-web-plugin-2.5.0.476.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-xml-plugin/sonar-xml-plugin-1.4.1.jar
 
