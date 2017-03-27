@@ -22,7 +22,7 @@ services:
 
   plugins:
     container_name: sonarqube_plugins
-    image: sonarqube:6.2-alpine
+    image: sonarqube:6.3-alpine
     volumes:
      - /opt/sonarqube/extensions
      - /opt/sonarqube/lib/bundled-plugins
