@@ -10,7 +10,6 @@ pushd plugins
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-groovy-plugin/sonar-groovy-plugin-1.4.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-java-plugin/sonar-java-plugin-4.7.0.9212.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-javascript-plugin/sonar-javascript-plugin-2.21.0.4409.jar
-  wget --no-clobber https://github.com/racodond/sonar-jproperties-plugin/releases/download/2.4/sonar-jproperties-plugin-2.4.jar
   wget --no-clobber https://github.com/racodond/sonar-json-plugin/releases/download/2.1/sonar-json-plugin-2.1.jar
   wget --no-clobber https://github.com/iwarapter/sonar-puppet/releases/download/1.4/sonar-puppet-plugin-1.4.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-python-plugin/sonar-python-plugin-1.7.0.1195.jar
