@@ -2,7 +2,7 @@
 
 pushd plugins
 
-  wget --no-clobber https://ci.appveyor.com/api/buildjobs/8k2hqcu3xyyudqd0/artifacts/sonar-fsharp-plugin/target/sonar-fsharp-plugin-1.0.RC4.jar
+  wget --no-clobber https://github.com/jmecsoftware/sonar-fsharp-plugin/releases/download/1.0.0/sonarqube-fsharp-plugin-1.0.0.jar
   wget --no-clobber https://github.com/SonarQubeCommunity/sonar-erlang/releases/download/1.2/sonar-erlang-plugin.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-csharp-plugin/sonar-csharp-plugin-5.8.jar
   wget --no-clobber https://github.com/racodond/sonar-css-plugin/releases/download/2.4/sonar-css-plugin-2.4.jar
