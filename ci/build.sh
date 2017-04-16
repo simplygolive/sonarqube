@@ -4,11 +4,11 @@ pushd plugins
 
   wget --no-clobber https://github.com/jmecsoftware/sonar-fsharp-plugin/releases/download/1.0.0/sonarqube-fsharp-plugin-1.0.0.jar
   wget --no-clobber https://github.com/SonarQubeCommunity/sonar-erlang/releases/download/1.2/sonar-erlang-plugin.jar
-  wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-csharp-plugin/sonar-csharp-plugin-5.8.0.660.jar
+  wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-csharp-plugin/sonar-csharp-plugin-5.9.0.1001.jar
   wget --no-clobber https://github.com/racodond/sonar-css-plugin/releases/download/2.4/sonar-css-plugin-2.4.jar
   wget --no-clobber https://downloads.sonarsource.com/plugins/org/codehaus/sonar-plugins/android/sonar-android-plugin/1.1/sonar-android-plugin-1.1.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-groovy-plugin/sonar-groovy-plugin-1.4.jar
-  wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-java-plugin/sonar-java-plugin-4.7.0.9212.jar
+  wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-java-plugin/sonar-java-plugin-4.8.0.9441.jar
   wget --no-clobber https://sonarsource.bintray.com/Distribution/sonar-javascript-plugin/sonar-javascript-plugin-2.21.0.4409.jar
   wget --no-clobber https://github.com/racodond/sonar-json-plugin/releases/download/2.1/sonar-json-plugin-2.1.jar
   wget --no-clobber https://github.com/iwarapter/sonar-puppet/releases/download/1.4/sonar-puppet-plugin-1.4.jar
@@ -23,7 +23,7 @@ pushd plugins
   wget --no-clobber https://github.com/SonarQubeCommunity/sonar-sonargraph/releases/download/sonar-sonargraph-plugin-3.5/sonar-sonargraph-plugin-3.5.jar
   wget --no-clobber http://central.maven.org/maven2/org/codehaus/sonar-plugins/toxicity-chart/sonar-toxicity-chart-plugin/1.1/sonar-toxicity-chart-plugin-1.1.jar
   wget --no-clobber https://github.com/SonarQubeCommunity/sonar-widget-lab/releases/download/1.8.1/sonar-widget-lab-plugin-1.8.1.jar
-  wget --no-clobber https://github.com/stefanrinderle/softvis3d/releases/download/softvis3d-0.7.0/sonar-softvis3d-plugin-0.7.0.jar
+  wget --no-clobber https://github.com/stefanrinderle/softvis3d/releases/download/softvis3d-0.8.0/sonar-softvis3d-plugin-0.8.0.jar
 
 
   # infra
