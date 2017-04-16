@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e -u -x -o pipefail
+
 pushd plugins
 
   wget --no-clobber https://github.com/jmecsoftware/sonar-fsharp-plugin/releases/download/1.0.0/sonarqube-fsharp-plugin-1.0.0.jar
